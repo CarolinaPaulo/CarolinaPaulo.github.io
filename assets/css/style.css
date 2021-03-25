@@ -1,0 +1,229 @@
+/*ESTILOS GERAIS*/
+:root{
+    --backgroundPrimaria: 
+    --background-segundaria:
+    --text-color: #636363;
+    --primary-text:  white;
+}
+
+html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li, a,main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+/*ESTILOS GERAIS*/
+.container{
+    background-color: black;
+}
+
+.hidden{
+    display: none;
+}
+
+.coluna{
+    flex-basis: 49%;
+
+}
+
+/*BODY*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+
+/*HEADER*/
+header{
+    background-color: rgba(12, 226, 41, 0.664);
+    padding: 30px 30px 0;
+    
+}
+
+header .linha{
+    align-items: center;
+}
+
+header .coluna{
+    text-align: center;
+
+}
+header .coluna-esquerda{
+    flex-basis: 30%;
+}
+header .coluna-direita{
+    flex-basis: 70%;
+
+}
+header .coluna img{
+    max-width: 100%;
+
+}
+header .coluna p{
+    color: #636363;
+    font-size: 1rem;
+    margin: 0 0 12px;
+    
+}
+header .coluna h1{
+    color: white;
+    font-size: 1.5rem;
+    
+}
+header .coluna ul {
+   
+}
+header .coluna ul li{
+    color: white;
+    margin: 0 0 12px;
+}
+header .coluna ul li a{
+    color: white;
+}
+
+/*FOOTER*/
+footer{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgba(12, 226, 41, 0.664);
+    padding-bottom: 30px;
+}
+
+footer .container{
+    padding: 20px;
+}
+
+footer nav{
+    color: var(--primary-text);
+}
+footer nav ul{
+    color: var(--primary-text);
+}
+footer nav ul li a{
+    color: var(--primary-text);
+}
+footer nav .info-contato{
+    color: var(--primary-text);
+}
+footer nav .redes-sociais{
+    border-top: 1px solid white;
+    margin: 20px 0 50px;
+    padding: 50px 0 0;
+    text-align: center;
+
+}
+footer nav .redes-sociais li{
+    
+    text-align: center;
+    display: inline-block;
+}
+footer nav .redes-sociais li a img{
+    width: 40px;
+}
+/*PAGINA INICIAL*/
+main .coluna{
+    padding: 20px;
+}
+main .coluna section{
+    border-bottom: 1px solid rgba(12, 226, 41, 0.664);
+    margin: 0 0 20px;
+    min-height: 187px;
+    color: var(--primary-text);
+
+}
+main .coluna section h2{
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+    
+
+}
+main .coluna section p{
+    font-size: 0.9rem;
+    color: var(--text-color);
+    line-height: 1.5;
+
+}
+main .coluna section ul{
+    margin: 0 0 15px;
+    
+}
+main .coluna section ul li{
+    margin: 0 0 12px;
+    
+}
+main .coluna section ul li h3{
+    font-size: 1.1rem;
+    
+}
+main .coluna section ul li strong{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin: 5px 0 10px;
+    display: inline-block;
+    
+}
+main .coluna section ul li p{
+    line-height: 1.5;
+}   
+
+/*EXTRAS*
+.light-mode{
+    --text-color: #636363;
+    --primary-text:  black;
+
+}
+*/
+
+
+
+
+/*@MEDIA*/
+@media only screen and (min-width: 768px){
+    .linha{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    footer nav .redes-sociais{
+        display: flex;
+        justify-content: center;
+    }
+    header{
+        padding-top: 30px;
+    }
+    header .coluna img{
+        max-width: 250px;
+        border-radius: 100%;
+    
+    }
+    .container{
+
+        width: 100%;
+        max-width: 1125px;
+        margin: 0 auto;
+        padding: 30px 30px 30px 30px;
+        
+    }
+    header .container{
+        padding-top: 30px;
+    }
+    main .coluna section{
+        border: 1px solid rgba(12, 226, 41, 0.664);
+        padding: 20px; 
+    }
+    main .coluna{
+        
+    }
+    footer .container{
+        
+    }
+    footer nav .redes-sociais li{
+        margin: 0 20px;
+        text-align: center;
+        display: initial;
+    }
+}
+

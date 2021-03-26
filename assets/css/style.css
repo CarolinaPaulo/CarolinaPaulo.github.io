@@ -38,7 +38,7 @@ body{
 
 /*HEADER*/
 header{
-    background-color: rgba(12, 226, 41, 0.664);
+    background-color: #b5e853;
     padding: 30px 30px 0;
     
 }
@@ -87,7 +87,7 @@ header .coluna ul li a{
 /*FOOTER*/
 footer{
     font-family: 'Open Sans', sans-serif;
-    background-color: rgba(12, 226, 41, 0.664);
+    background-color: #b5e853;
     padding-bottom: 30px;
 }
 
@@ -127,7 +127,7 @@ main .coluna{
     padding: 20px;
 }
 main .coluna section{
-    border-bottom: 1px solid rgba(12, 226, 41, 0.664);
+    border-bottom: 1px solid #b5e853;
     margin: 0 0 20px;
     min-height: 187px;
     color: var(--primary-text);
@@ -211,7 +211,7 @@ main .coluna section ul li p{
         padding-top: 30px;
     }
     main .coluna section{
-        border: 1px solid rgba(12, 226, 41, 0.664);
+        border: 1px solid #b5e853;
         padding: 20px; 
     }
     main .coluna{

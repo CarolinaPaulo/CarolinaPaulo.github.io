@@ -1,8 +1,8 @@
 /*ESTILOS GERAIS*/
 :root{
-    --backgroundPrimaria:  #89f143;
+    --backgroundPrimaria: linear-gradient(to bottom, #166c17 0%, #151515 100%);
     --backgroundSegundaria: #151515;
-    --text-color: #636363;
+    --text-color: #9e9d9d;
     --primary-text:  white;
 }
 
@@ -35,7 +35,7 @@ html, body, figure, img, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul,li,
 }
 
 h2{
-    color: var(--backgroundPrimaria);
+    color: #166c17;
 }
 a {
     color: #63c0f5;
@@ -50,7 +50,7 @@ body{
 
 /*HEADER*/
 header{
-    background-color: var(--backgroundPrimaria);
+    background: var(--backgroundPrimaria);
     padding: 30px 30px 0;
     
 }
@@ -85,9 +85,7 @@ header .coluna h1{
     font-size: 1.5rem;
     
 }
-header .coluna ul {
-   
-}
+
 header .coluna ul li{
     color: white;
     margin: 0 0 12px;
@@ -99,7 +97,7 @@ header .coluna ul li a{
 /*FOOTER*/
 footer{
     font-family: 'Open Sans', sans-serif;
-    background-color: var(--backgroundPrimaria);
+    background: var(--backgroundPrimaria);
     padding-bottom: 30px;
 }
 
@@ -144,7 +142,7 @@ main .coluna{
     padding: 20px;
 }
 main .coluna section{
-    border-bottom: 1px solid var(--backgroundPrimaria);
+    border-bottom: 1px solid #166c17;
     margin: 0 0 20px;
     min-height: 187px;
     color: var(--primary-text);
@@ -219,6 +217,7 @@ main .coluna section .baixo-esquerda{
 
 header .container{
     position: relative;
+    
 }
 label{
     position: absolute;
@@ -261,12 +260,15 @@ label span{
 }
 .ativar-light:checked ~ .light-mode header{
     background-color:var(--corBackgroundSecundaria) ;
+    background: black;
 }
 .ativar-light:checked ~ .light-mode header .container{
     background-color:var(--corBackgroundDark) ;
+    background: black;
 }
 .ativar-light:checked ~ .light-mode .container{
     background-color:var(--corBackgroundDark) ;
+    background: black;
 }
 .ativar-light:checked ~ .light-mode main{
     background-color:var(--corBackgroundSecundaria) ;
@@ -324,7 +326,7 @@ label span{
         padding-top: 30px;
     }
     main .coluna section{
-        border: 1px solid var(--backgroundPrimaria);
+        border: 1px solid #166c17;
         padding: 20px; 
     }
     main .coluna{

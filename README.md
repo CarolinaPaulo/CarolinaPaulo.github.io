@@ -2,7 +2,7 @@
 
 Site criado utilizando HTML e CSS
 
-##Funcionalidades
+## Funcionalidades
 
 - Dark mode
 - Animações nos links para redes sociais
